@@ -1,8 +1,11 @@
 import { FC } from 'react'
+import AppRouter from './AppRouter'
 
 const App: FC = () => {
   return (
-    <div>Work!</div>
+    <div>
+      <AppRouter />
+    </div>
   )
 }
 
