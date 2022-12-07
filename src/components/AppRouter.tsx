@@ -1,7 +1,7 @@
-import { FC } from "react";
-import { Navigate, Route, Routes } from "react-router-dom";
-import { useTypedSelector } from "../hooks/useTypedSelector";
-import { privateRoutes, publicRoutes, RouteNames } from "../routes";
+import { FC } from 'react';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import { useTypedSelector } from '../hooks/useTypedSelector';
+import { privateRoutes, publicRoutes, RouteNames } from '../routes';
 
 const AppRouter: FC = () => {
   const { isAuth } = useTypedSelector((store) => store.auth);
