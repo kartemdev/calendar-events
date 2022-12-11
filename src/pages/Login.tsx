@@ -1,9 +1,17 @@
-import React, { FC } from 'react'
+import { Card, Layout, Row } from 'antd';
+import { FC } from 'react';
+import LoginForm from '../components/LoginForm';
 
 const Login: FC = () => {
   return (
-    <div>Login</div>
-  )
-}
+    <Layout>
+      <Row justify="center" align="middle" className="h100">
+        <Card>
+          <LoginForm />
+        </Card>
+      </Row>
+    </Layout>
+  );
+};
 
-export default Login
+export default Login;

@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+/* @import '~antd/dist/antd.css'; */
+
+.h100 {
+  height: calc(100vh - 128.5px)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chsDate {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px;
+  font-size: 15px;
+  border: 1px solid rgb(129, 129, 129, 0.3);
+  border-radius: 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.iconDate {
+  margin-left: 1vw;
+  color: rgb(129, 129, 129, 0.5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  height: calc(100vh - 128.5px);
 }
 
-.App-link {
-  color: #61dafb;
+.main > img {
+  margin-top: 50px;
+  height: 400px;
+  width: 420px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main > div {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main > div p:nth-child(1) {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 500;
+  color: #191b42;
+}
+
+.main > div p:nth-child(2) {
+  font-size: 17px;
+  font-weight: 400;
+  color: #4b87c9;
+  cursor: pointer;
+}
+
+.nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-nav {
+  height: 30px;
+  width: 110px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: white;
 }
