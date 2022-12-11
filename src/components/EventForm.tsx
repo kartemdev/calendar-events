@@ -1,4 +1,4 @@
-import { Button, DatePicker, Form, Input, message, Row, Select } from 'antd';
+import { Button, DatePicker, Form, Input, Row, Select } from 'antd';
 import { FC, useEffect, useState } from 'react';
 import { useTypedSelector } from '../hooks/useTypedSelector';
 import { IEvent } from '../models/IEvent';
@@ -7,7 +7,6 @@ import { formatDate } from '../utils/date';
 import { rules } from '../utils/rules';
 import { Dayjs } from 'dayjs';
 import { CalendarOutlined } from '@ant-design/icons';
-import dayjs from 'dayjs'
 
 interface EventFormProps {
   guests: IUser[];

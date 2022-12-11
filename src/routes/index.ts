@@ -1,5 +1,3 @@
-/* eslint-disable import/extensions */
-/* eslint-disable no-shadow */
 import React from 'react';
 import Event from '../pages/Event';
 import Login from '../pages/Login';

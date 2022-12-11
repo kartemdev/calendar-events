@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react';
+import { FC, useState } from 'react';
 import image from '../static/logo.png';
 
 const Main: FC = () => {
