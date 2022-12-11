@@ -3,10 +3,12 @@
 import React from 'react';
 import Event from '../pages/Event';
 import Login from '../pages/Login';
+import Main from '../pages/Main';
 
 export enum RouteNames {
+  MAIN = '/',
   LOGIN = '/login',
-  EVENT = '/',
+  EVENT = '/event',
 }
 export interface IRoute {
   path: string;
@@ -14,6 +16,7 @@ export interface IRoute {
 }
 
 export const publicRoutes: IRoute[] = [
+  { path: RouteNames.MAIN, component: Main },
   { path: RouteNames.LOGIN, component: Login },
 ];
 

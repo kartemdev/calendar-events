@@ -25,7 +25,7 @@ const AppRouter: FC = () => {
           key={route.path}
         />
       ))}
-      <Route path="*" element={<Navigate to={RouteNames.LOGIN} replace />} />
+      <Route path="*" element={<Navigate to={RouteNames.MAIN} replace />} />
     </Routes>
   );
 };

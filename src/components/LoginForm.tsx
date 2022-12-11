@@ -22,14 +22,14 @@ const LoginForm: FC = () => {
       <Form.Item
         label="Имя пользователя"
         name="username"
-        rules={[rules.required('Введите имя пользователя!')]}
+        rules={[rules.required('Введите имя пользователя')]}
       >
         <Input value={username} onChange={(e) => setUsername(e.target.value)} />
       </Form.Item>
       <Form.Item
         label="Пароль"
         name="password"
-        rules={[rules.required('Введите пароль!')]}
+        rules={[rules.required('Введите пароль')]}
       >
         <Input
           value={password}
