@@ -8,7 +8,7 @@
 - Добавление события
 
 ### Инструкция по локальному запуску
-Все данные о пользователе содержаться в [users.json](https://github.com/kartemdev/calendar-events/blob/master/public/users.json) и LocalStorage, данные о событиях на определенной день содержатья только в localStorage.
+Все данные о пользователе содержатся в [users.json](https://github.com/kartemdev/calendar-events/blob/master/public/users.json) и LocalStorage, данные о событиях на определенной день содержатся только в LocalStorage.
 
 После клонирования репозитория выполните следующие комнадв в терминале корневой папке проекта
 ```sh
